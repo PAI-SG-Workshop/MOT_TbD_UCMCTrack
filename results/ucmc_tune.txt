@@ -1,0 +1,19 @@
+72 configurations x 3 detectors on 12 train sequences
+  8/72  best so far 0.6123  (82 s)
+  16/72  best so far 0.6476  (151 s)
+  24/72  best so far 0.6476  (212 s)
+  32/72  best so far 0.6502  (260 s)
+  40/72  best so far 0.6585  (332 s)
+  48/72  best so far 0.6585  (363 s)
+  56/72  best so far 0.6608  (428 s)
+  64/72  best so far 0.6608  (484 s)
+  72/72  best so far 0.6608  (528 s)
+
+top 5 (train HOTA mean | x, cascade_rcnn, v6):
+  0.6608 | [0.6083, 0.7445, 0.6295] | vmax 5.0 wx=wy 5.0 a 40.0 conf 0.5
+  0.6604 | [0.6084, 0.7458, 0.6271] | vmax 10.0 wx=wy 5.0 a 40.0 conf 0.5
+  0.6599 | [0.6035, 0.7534, 0.6227] | vmax 10.0 wx=wy 5.0 a 40.0 conf 0.3
+  0.6587 | [0.6029, 0.75, 0.6233] | vmax 5.0 wx=wy 5.0 a 40.0 conf 0.3
+  0.6585 | [0.6066, 0.7419, 0.6271] | vmax 2.0 wx=wy 5.0 a 40.0 conf 0.5
+official defaults: 0.5447 | [0.5037, 0.6129, 0.5173]
+-> /home/minsoogo/mot_logs/ucmc_kitti_params.json

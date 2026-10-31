@@ -1,0 +1,76 @@
+{
+ "tracker": "ucmctrack_kitti",
+ "run": "kittimots_rtmdet",
+ "source": "kittimots",
+ "split": "val",
+ "detections": {
+  "version": "rtmdet"
+ },
+ "params": {
+  "wx": 5.0,
+  "wy": 5.0,
+  "vmax": 5.0,
+  "a1": 40.0,
+  "a2": 40.0,
+  "cdt_30fps": 30,
+  "high_score": 0.6,
+  "conf_thresh": 0.5,
+  "ego_motion": true,
+  "tuned_on": "/home/minsoogo/mot_logs/ucmc_kitti_params.json"
+ },
+ "tracker_ms": {
+  "median": 0.07667001045774668,
+  "p95": 1.383729398366995,
+  "frames": 2981
+ },
+ "detector_ms": {
+  "median": 6.1830668449401855,
+  "p95": 6.482821941375732
+ },
+ "reid_ms": null,
+ "score_thr": 0.5,
+ "causal_check": null,
+ "per_class": {
+  "car": {
+   "HOTA": 0.5951967828838786,
+   "DetA": 0.5299824807880185,
+   "AssA": 0.6693346499394098,
+   "LocA": 0.8939795318477884,
+   "MOTA": 0.5903599451986549,
+   "MOTP": 0.882212446301975,
+   "IDF1": 0.7071576843238256,
+   "IDSW": 44,
+   "Frag": 48,
+   "GT_IDs": null,
+   "CLR_TP": 4881,
+   "CLR_FN": 3148,
+   "CLR_FP": 97
+  },
+  "pedestrian": {
+   "HOTA": 0.3009115764015063,
+   "DetA": 0.22241779179610904,
+   "AssA": 0.4086716991380856,
+   "LocA": 0.8127677751190914,
+   "MOTA": 0.2730803704810278,
+   "MOTP": 0.7904100684573888,
+   "IDF1": 0.4054302807179015,
+   "IDSW": 15,
+   "Frag": 64,
+   "GT_IDs": null,
+   "CLR_TP": 964,
+   "CLR_FN": 2383,
+   "CLR_FP": 35
+  }
+ },
+ "mean": {
+  "HOTA": 0.44805417964269245,
+  "DetA": 0.3762001362920637,
+  "AssA": 0.5390031745387477,
+  "LocA": 0.85337365348344,
+  "MOTA": 0.4317201578398413,
+  "MOTP": 0.8363112573796819,
+  "IDF1": 0.5562939825208636,
+  "IDSW": 59,
+  "Frag": 112
+ }
+}
